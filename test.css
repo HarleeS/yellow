@@ -1,0 +1,35 @@
+/* Reset default margin and padding for header and nav elements */
+header, nav {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #f0f0f0;
+    display: flex; /* Use flexbox to align items in the same row */
+    align-items: center; /* Center items vertically in the navigation bar */
+    padding: 10px;
+}
+
+/* Style the logo */
+.logo img {
+    height: 40px; /* Adjust the height of the logo as needed */
+}
+
+/* Style the list items (links) */
+.links {
+    display:inline-block;
+    list-style: none;
+    display: flex; /* Use flexbox to arrange the links in a row */
+}
+
+.links li {
+    margin: 0 10px; /* Add some spacing between the links */
+}
+
+.links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
